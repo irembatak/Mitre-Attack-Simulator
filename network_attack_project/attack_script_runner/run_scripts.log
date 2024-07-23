@@ -1,0 +1,1054 @@
+2024-06-10 15:23:14,239 INFO:Initializing Firebase...
+2024-06-10 15:23:14,265 INFO:Running T1649 script...
+2024-06-10 15:23:14,317 ERROR:T1649 script error: The argument '../attack_scripts/T1649_Steal_Authentication_Certificates.ps1' to the -File parameter does not exist. Provide the path to an existing '.ps1' file as an argument to the -File parameter.
+
+2024-06-10 15:23:14,317 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:23:14,318 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:23:14,320 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:23:14,720 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:23:14,722 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:23:15,424 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:23:15,425 INFO:Running T1574 script...
+2024-06-10 15:23:15,492 ERROR:T1574 script error: The argument '../attack_scripts/T1574_Hijack_Execution_Flow.ps1' to the -File parameter does not exist. Provide the path to an existing '.ps1' file as an argument to the -File parameter.
+
+2024-06-10 15:23:15,709 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:28:11,141 INFO:Initializing Firebase...
+2024-06-10 15:28:11,166 INFO:Firebase initialized successfully.
+2024-06-10 15:28:11,167 INFO:Running T1649 script...
+2024-06-10 15:28:11,416 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   3:28 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:28 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:28 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:28 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:28 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:28 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:28 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   3:28 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:28 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   3:28 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:28 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:28 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 15:28:11,417 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:28:11,418 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:28:11,420 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:28:11,823 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:28:11,825 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:28:12,544 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:28:12,545 INFO:Data sent to Firebase at /attack_results/T1649: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   3:28 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:28 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:28 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:28 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:28 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:28 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:28 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   3:28 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:28 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   3:28 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:28 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:28 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 15:28:12,545 INFO:Running T1574 script...
+2024-06-10 15:28:12,737 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 15:28:12,951 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:28:12,951 INFO:Data sent to Firebase at /attack_results/T1574: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 15:34:17,216 INFO:Initializing Firebase...
+2024-06-10 15:34:17,242 INFO:Firebase initialized successfully.
+2024-06-10 15:34:17,242 INFO:Running T1649 script...
+2024-06-10 15:34:17,482 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   3:34 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:34 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:34 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:34 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:34 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:34 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:34 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   3:34 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:34 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   3:34 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:34 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:34 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 15:34:17,482 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:34:17,483 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:34:17,485 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:34:17,903 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:34:17,905 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:34:18,574 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:34:18,575 INFO:Data sent to Firebase at /attack_results/T1649: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   3:34 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:34 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:34 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:34 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:34 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:34 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:34 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   3:34 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:34 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   3:34 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:34 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:34 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 15:34:18,575 INFO:Running T1574 script...
+2024-06-10 15:34:18,752 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 15:34:18,985 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:34:18,985 INFO:Data sent to Firebase at /attack_results/T1574: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 15:38:39,111 INFO:Initializing Firebase...
+2024-06-10 15:38:39,138 INFO:Firebase initialized successfully.
+2024-06-10 15:38:39,138 INFO:Running T1649 script...
+2024-06-10 15:38:39,386 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   3:38 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 15:38:39,386 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:38:39,387 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:38:39,389 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:38:39,821 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:38:39,822 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:38:40,584 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610153839.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:38:40,584 INFO:Data sent to Firebase at /attack_results/T1649/20240610153839: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   3:38 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 15:38:40,584 INFO:Running T1574 script...
+2024-06-10 15:38:40,771 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 15:38:40,991 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610153840.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:38:40,991 INFO:Data sent to Firebase at /attack_results/T1574/20240610153840: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 15:38:46,649 INFO:Initializing Firebase...
+2024-06-10 15:38:46,675 INFO:Firebase initialized successfully.
+2024-06-10 15:38:46,675 INFO:Running T1649 script...
+2024-06-10 15:38:46,904 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   3:38 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 15:38:46,904 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:38:46,905 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:38:46,907 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:38:47,338 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:38:47,341 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:38:47,993 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610153846.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:38:47,993 INFO:Data sent to Firebase at /attack_results/T1649/20240610153846: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   3:38 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 15:38:47,993 INFO:Running T1574 script...
+2024-06-10 15:38:48,165 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 15:38:48,382 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610153848.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:38:48,383 INFO:Data sent to Firebase at /attack_results/T1574/20240610153848: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 15:38:52,921 INFO:Initializing Firebase...
+2024-06-10 15:38:52,947 INFO:Firebase initialized successfully.
+2024-06-10 15:38:52,947 INFO:Running T1649 script...
+2024-06-10 15:38:53,173 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   3:38 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 15:38:53,173 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:38:53,175 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:38:53,176 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:38:53,598 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:38:53,599 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:38:54,264 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610153853.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:38:54,264 INFO:Data sent to Firebase at /attack_results/T1649/20240610153853: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   3:38 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 15:38:54,264 INFO:Running T1574 script...
+2024-06-10 15:38:54,441 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 15:38:54,655 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610153854.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:38:54,655 INFO:Data sent to Firebase at /attack_results/T1574/20240610153854: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 15:38:56,249 INFO:Initializing Firebase...
+2024-06-10 15:38:56,275 INFO:Firebase initialized successfully.
+2024-06-10 15:38:56,275 INFO:Running T1649 script...
+2024-06-10 15:38:56,513 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   3:38 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 15:38:56,513 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:38:56,514 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:38:56,516 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:38:56,906 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:38:56,907 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:38:57,565 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610153856.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:38:57,566 INFO:Data sent to Firebase at /attack_results/T1649/20240610153856: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   3:38 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   3:38 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:38 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 15:38:57,566 INFO:Running T1574 script...
+2024-06-10 15:38:57,724 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 15:38:57,939 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610153857.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:38:57,939 INFO:Data sent to Firebase at /attack_results/T1574/20240610153857: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 15:43:32,215 INFO:Initializing Firebase...
+2024-06-10 15:43:32,241 INFO:Firebase initialized successfully.
+2024-06-10 15:43:32,241 INFO:Running T1649 script...
+2024-06-10 15:43:32,465 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   3:43 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:43 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:43 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:43 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:43 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:43 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:43 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   3:43 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:43 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   3:43 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:43 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:43 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 15:43:32,465 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:43:32,466 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:43:32,468 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:43:32,901 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:43:32,902 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:43:33,608 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/1718023412.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:43:33,608 INFO:Data sent to Firebase at /attack_results/T1649/1718023412: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   3:43 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:43 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:43 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:43 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:43 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:43 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:43 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   3:43 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:43 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   3:43 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:43 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:43 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 15:43:33,608 INFO:Running T1574 script...
+2024-06-10 15:43:33,785 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 15:43:34,006 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/1718023413.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:43:34,006 INFO:Data sent to Firebase at /attack_results/T1574/1718023413: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 15:44:04,417 INFO:Initializing Firebase...
+2024-06-10 15:44:04,443 INFO:Firebase initialized successfully.
+2024-06-10 15:44:04,443 INFO:Running T1649 script...
+2024-06-10 15:44:04,647 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   3:44 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:44 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:44 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:44 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:44 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:44 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:44 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   3:44 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:44 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   3:44 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:44 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:44 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 15:44:04,647 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:44:04,648 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:44:04,650 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:44:05,058 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:44:05,059 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:44:05,749 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/1718023444.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:44:05,749 INFO:Data sent to Firebase at /attack_results/T1649/1718023444: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   3:44 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:44 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:44 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:44 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:44 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:44 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:44 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   3:44 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:44 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   3:44 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:44 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:44 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 15:44:05,749 INFO:Running T1574 script...
+2024-06-10 15:44:05,909 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 15:44:06,117 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/1718023445.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:44:06,118 INFO:Data sent to Firebase at /attack_results/T1574/1718023445: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 15:52:03,440 INFO:Initializing Firebase...
+2024-06-10 15:52:03,466 INFO:Firebase initialized successfully.
+2024-06-10 15:52:03,466 INFO:Running T1649 script...
+2024-06-10 15:52:03,690 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   3:52 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   3:52 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 15:52:03,690 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:52:03,691 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:52:03,693 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:52:04,107 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:52:04,108 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:52:04,763 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610155203.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:52:04,763 INFO:Data sent to Firebase at /attack_results/T1649/20240610155203: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   3:52 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   3:52 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 15:52:04,763 INFO:Running T1574 script...
+2024-06-10 15:52:04,926 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 15:52:05,145 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610155204.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:52:05,145 INFO:Data sent to Firebase at /attack_results/T1574/20240610155204: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 15:52:24,279 INFO:Initializing Firebase...
+2024-06-10 15:52:24,305 INFO:Firebase initialized successfully.
+2024-06-10 15:52:24,305 INFO:Running T1649 script...
+2024-06-10 15:52:24,533 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   3:52 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   3:52 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 15:52:24,534 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:52:24,535 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:52:24,537 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:52:24,971 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:52:24,972 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:52:25,630 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610155224.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:52:25,630 INFO:Data sent to Firebase at /attack_results/T1649/20240610155224: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   3:52 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   3:52 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 15:52:25,630 INFO:Running T1574 script...
+2024-06-10 15:52:25,817 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 15:52:26,030 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610155225.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:52:26,030 INFO:Data sent to Firebase at /attack_results/T1574/20240610155225: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 15:52:49,153 INFO:Initializing Firebase...
+2024-06-10 15:52:49,179 INFO:Firebase initialized successfully.
+2024-06-10 15:52:49,179 INFO:Running T1649 script...
+2024-06-10 15:52:49,397 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   3:52 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   3:52 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:52 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 15:52:49,397 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:52:49,399 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:52:49,400 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:52:49,846 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:52:49,847 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:52:50,539 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610155249.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:52:50,539 INFO:Data sent to Firebase at /attack_results/T1649/20240610155249: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   3:52 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   3:52 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:52 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 15:52:50,539 INFO:Running T1574 script...
+2024-06-10 15:52:50,714 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 15:52:50,929 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610155250.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:52:50,929 INFO:Data sent to Firebase at /attack_results/T1574/20240610155250: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 15:59:07,021 INFO:Initializing Firebase...
+2024-06-10 15:59:07,046 INFO:Firebase initialized successfully.
+2024-06-10 15:59:07,046 INFO:Running T1649 script...
+2024-06-10 15:59:07,271 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   3:59 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   3:59 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 15:59:07,271 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:59:07,272 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:59:07,274 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:59:07,733 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:59:07,735 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:59:08,734 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610155907.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:59:08,735 INFO:Data sent to Firebase at /attack_results/T1649/20240610155907: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   3:59 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   3:59 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 15:59:08,735 INFO:Running T1574 script...
+2024-06-10 15:59:08,891 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 15:59:09,114 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610155908.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:59:09,114 INFO:Data sent to Firebase at /attack_results/T1574/20240610155908: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 15:59:13,698 INFO:Initializing Firebase...
+2024-06-10 15:59:13,725 INFO:Firebase initialized successfully.
+2024-06-10 15:59:13,725 INFO:Running T1649 script...
+2024-06-10 15:59:13,948 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   3:59 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   3:59 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   3:59 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 15:59:13,948 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 15:59:13,950 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 15:59:13,951 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 15:59:14,371 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 15:59:14,373 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 15:59:15,015 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610155913.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:59:15,015 INFO:Data sent to Firebase at /attack_results/T1649/20240610155913: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   3:59 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   3:59 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   3:59 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 15:59:15,015 INFO:Running T1574 script...
+2024-06-10 15:59:15,175 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 15:59:15,386 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610155915.json?print=silent HTTP/1.1" 204 0
+2024-06-10 15:59:15,387 INFO:Data sent to Firebase at /attack_results/T1574/20240610155915: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 16:00:40,964 INFO:Initializing Firebase...
+2024-06-10 16:00:40,989 INFO:Firebase initialized successfully.
+2024-06-10 16:00:40,989 INFO:Running T1649 script...
+2024-06-10 16:00:41,208 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   4:00 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   4:00 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 16:00:41,208 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 16:00:41,209 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 16:00:41,212 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 16:00:41,635 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 16:00:41,637 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 16:00:42,320 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610160041.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:00:42,320 INFO:Data sent to Firebase at /attack_results/T1649/20240610160041: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   4:00 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   4:00 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 16:00:42,321 INFO:Running T1574 script...
+2024-06-10 16:00:42,476 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 16:00:42,687 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610160042.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:00:42,687 INFO:Data sent to Firebase at /attack_results/T1574/20240610160042: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 16:00:53,346 INFO:Initializing Firebase...
+2024-06-10 16:00:53,371 INFO:Firebase initialized successfully.
+2024-06-10 16:00:53,371 INFO:Running T1649 script...
+2024-06-10 16:00:53,633 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   4:00 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   4:00 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:00 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 16:00:53,633 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 16:00:53,634 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 16:00:53,636 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 16:00:54,057 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 16:00:54,059 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 16:00:54,725 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610160053.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:00:54,725 INFO:Data sent to Firebase at /attack_results/T1649/20240610160053: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   4:00 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   4:00 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:00 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 16:00:54,725 INFO:Running T1574 script...
+2024-06-10 16:00:54,886 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 16:00:55,097 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610160054.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:00:55,097 INFO:Data sent to Firebase at /attack_results/T1574/20240610160054: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 16:01:07,794 INFO:Initializing Firebase...
+2024-06-10 16:01:07,820 INFO:Firebase initialized successfully.
+2024-06-10 16:01:07,820 INFO:Running T1649 script...
+2024-06-10 16:01:08,051 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   4:01 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:01 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:01 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:01 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:01 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:01 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:01 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   4:01 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:01 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   4:01 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:01 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:01 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 16:01:08,051 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 16:01:08,052 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 16:01:08,054 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 16:01:08,456 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 16:01:08,457 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 16:01:09,109 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610160108.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:01:09,109 INFO:Data sent to Firebase at /attack_results/T1649/20240610160108: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   4:01 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:01 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:01 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:01 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:01 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:01 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:01 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   4:01 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:01 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   4:01 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:01 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:01 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 16:01:09,109 INFO:Running T1574 script...
+2024-06-10 16:01:09,272 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 16:01:09,492 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610160109.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:01:09,492 INFO:Data sent to Firebase at /attack_results/T1574/20240610160109: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 16:05:32,638 INFO:Initializing Firebase...
+2024-06-10 16:05:32,664 INFO:Firebase initialized successfully.
+2024-06-10 16:05:32,665 INFO:Running T1649 script...
+2024-06-10 16:05:32,896 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   4:05 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:05 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:05 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:05 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:05 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:05 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:05 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   4:05 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:05 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   4:05 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:05 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:05 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 16:05:32,897 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 16:05:32,898 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 16:05:32,899 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 16:05:33,311 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 16:05:33,312 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 16:05:34,036 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610160532.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:05:34,037 INFO:Data sent to Firebase at /attack_results/T1649/20240610160532: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   4:05 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:05 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:05 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:05 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:05 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:05 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:05 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   4:05 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:05 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   4:05 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:05 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:05 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 16:05:34,037 INFO:Running T1574 script...
+2024-06-10 16:05:34,210 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 16:05:34,435 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610160534.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:05:34,435 INFO:Data sent to Firebase at /attack_results/T1574/20240610160534: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 16:06:32,286 INFO:Initializing Firebase...
+2024-06-10 16:06:32,311 INFO:Firebase initialized successfully.
+2024-06-10 16:06:32,311 INFO:Running T1649 script...
+2024-06-10 16:06:32,549 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   4:06 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   4:06 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 16:06:32,549 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 16:06:32,550 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 16:06:32,552 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 16:06:32,963 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 16:06:32,964 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 16:06:33,605 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610160632.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:06:33,605 INFO:Data sent to Firebase at /attack_results/T1649/20240610160632: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   4:06 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   4:06 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 16:06:33,605 INFO:Running T1574 script...
+2024-06-10 16:06:33,772 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 16:06:33,984 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610160633.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:06:33,984 INFO:Data sent to Firebase at /attack_results/T1574/20240610160633: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 16:06:41,550 INFO:Initializing Firebase...
+2024-06-10 16:06:41,576 INFO:Firebase initialized successfully.
+2024-06-10 16:06:41,577 INFO:Running T1649 script...
+2024-06-10 16:06:41,812 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   4:06 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   4:06 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:06 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 16:06:41,812 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 16:06:41,813 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 16:06:41,815 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 16:06:42,266 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 16:06:42,268 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 16:06:42,926 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610160641.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:06:42,926 INFO:Data sent to Firebase at /attack_results/T1649/20240610160641: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   4:06 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   4:06 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:06 PM           1475 .cer                                                                                                                                                                     \n\n\n'}
+2024-06-10 16:06:42,926 INFO:Running T1574 script...
+2024-06-10 16:06:43,112 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 16:06:43,325 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610160643.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:06:43,325 INFO:Data sent to Firebase at /attack_results/T1574/20240610160643: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n'}
+2024-06-10 16:17:51,701 INFO:Initializing Firebase...
+2024-06-10 16:17:51,727 INFO:Firebase initialized successfully.
+2024-06-10 16:17:51,727 INFO:Running T1649 script...
+2024-06-10 16:17:51,967 INFO:T1649 script output: 
+
+    Directory: C:\Users\Public\T1649\certs
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                                                                     
+----                 -------------         ------ ----                                                                                                                                                                     
+-a----         6/10/2024   4:17 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:17 PM            772 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:17 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:17 PM           1467 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:17 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:17 PM           1474 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:17 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           
+-a----         6/10/2024   4:17 PM           1468 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:17 PM            674 APNS certificate Direct.cer                                                                                                                                              
+-a----         6/10/2024   4:17 PM           1014 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:17 PM           1475 .cer                                                                                                                                                                     
+-a----         6/10/2024   4:17 PM           1475 .cer                                                                                                                                                                     
+
+
+
+2024-06-10 16:17:51,967 DEBUG:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2024-06-10 16:17:51,968 DEBUG:Making request: POST https://oauth2.googleapis.com/token
+2024-06-10 16:17:51,970 DEBUG:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-06-10 16:17:52,393 DEBUG:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-06-10 16:17:52,395 DEBUG:Starting new HTTPS connection (1): cyber-32dd2-default-rtdb.firebaseio.com:443
+2024-06-10 16:17:53,041 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1649/20240610161751.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:17:53,041 INFO:Data sent to Firebase at /attack_results/T1649/20240610161751: {'output': '\n\n    Directory: C:\\Users\\Public\\T1649\\certs\n\n\nMode                 LastWriteTime         Length Name                                                                                                                                                                     \n----                 -------------         ------ ----                                                                                                                                                                     \n-a----         6/10/2024   4:17 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:17 PM            772 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:17 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:17 PM           1467 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:17 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:17 PM           1474 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:17 PM            784 ASP.NET Core HTTPS development certificate.cer                                                                                                                           \n-a----         6/10/2024   4:17 PM           1468 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:17 PM            674 APNS certificate Direct.cer                                                                                                                                              \n-a----         6/10/2024   4:17 PM           1014 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:17 PM           1475 .cer                                                                                                                                                                     \n-a----         6/10/2024   4:17 PM           1475 .cer                                                                                                                                                                     \n\n\n', 'computer_name': 'DESKTOP-MEJ4PH4'}
+2024-06-10 16:17:53,041 INFO:Running T1574 script...
+2024-06-10 16:17:53,283 INFO:T1574 script output: 
+
+Path   : Microsoft.PowerShell.Core\Registry::HKLM\SYSTEM\CurrentControlSet\Services
+Owner  : NT AUTHORITY\SYSTEM
+Group  : NT AUTHORITY\SYSTEM
+Access : BUILTIN\Users Allow  ReadKey
+         BUILTIN\Administrators Allow  FullControl
+         NT AUTHORITY\SYSTEM Allow  FullControl
+         CREATOR OWNER Allow  FullControl
+         UYGULAMA PAKET˜ YETK˜L˜S˜\TšM UYGULAMA PAKETLER˜ Allow  ReadKey
+         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey
+Audit  : 
+Sddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)
+
+
+
+
+2024-06-10 16:17:53,498 DEBUG:https://cyber-32dd2-default-rtdb.firebaseio.com:443 "PUT /attack_results/T1574/20240610161753.json?print=silent HTTP/1.1" 204 0
+2024-06-10 16:17:53,498 INFO:Data sent to Firebase at /attack_results/T1574/20240610161753: {'output': '\n\nPath   : Microsoft.PowerShell.Core\\Registry::HKLM\\SYSTEM\\CurrentControlSet\\Services\nOwner  : NT AUTHORITY\\SYSTEM\nGroup  : NT AUTHORITY\\SYSTEM\nAccess : BUILTIN\\Users Allow  ReadKey\n         BUILTIN\\Administrators Allow  FullControl\n         NT AUTHORITY\\SYSTEM Allow  FullControl\n         CREATOR OWNER Allow  FullControl\n         UYGULAMA PAKET˜ YETK˜L˜S˜\\TšM UYGULAMA PAKETLER˜ Allow  ReadKey\n         S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681 Allow  ReadKey\nAudit  : \nSddl   : O:SYG:SYD:AI(A;CIID;KR;;;BU)(A;CIID;KA;;;BA)(A;CIID;KA;;;SY)(A;CIIOID;KA;;;CO)(A;CIID;KR;;;AC)(A;CIID;KR;;;S-1-15-3-1024-1065365936-1281604716-3511738428-1654721687-432734479-3232135806-4053264122-3456934681)\n\n\n\n', 'computer_name': 'DESKTOP-MEJ4PH4'}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitre Attack Simulator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Mitre Attack Simulator</h1>
+        <div class="results-container">
+            <div class="attack-result">
+                <h3>T1649 - Steal or Forge Authentication Certificates</h3>
+                {% for timestamp, result in t1649_results.items() %}
+                    <div class="result">
+                        <strong>{{ timestamp }}:</strong>
+                        <div><strong>Computer Name:</strong> {{ result.computer_name }}</div>
+                        <pre>{{ result.output }}</pre>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="attack-result">
+                <h3>T1574.011 - Hijack Execution Flow: Services Registry Permissions Weakness</h3>
+                {% for timestamp, result in t1574_results.items() %}
+                    <div class="result">
+                        <strong>{{ timestamp }}:</strong>
+                        <div><strong>Computer Name:</strong> {{ result.computer_name }}</div>
+                        <pre>{{ result.output }}</pre>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
